@@ -1,0 +1,535 @@
+/* indek untuk mengatur tata letak kolom login 00 */
+body{
+    margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+body img{
+  width: 100%;
+  height: 100%;
+
+}
+/* untuk menampilkan login, lupa password dan daftar */
+/* selain itu mengatur  boder pada login box  */
+.loginbox{
+    width: 320px;
+    height: 450px;
+    background: #0009;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-style:solid;
+    padding: 70px 30px;
+    border-radius: 10%;
+}
+
+/* mengatur (judul) box login */
+h1{
+    margin: -20px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 24px;
+}
+/* mengatur tulisan di box login */
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+ /* mengatur tombol input di box login */
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: gray;
+    color: #000;
+}
+
+/*  untuk mengatur tulisan di bawah tombol box login */
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+/* perubahan warna menjadi putih ( lupa password dan punya akun) */
+.loginbox a:hover
+{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*untuk menampilkan tombol" di header seperti home dll  */
+ul{
+  float: right right;
+  list-style-type: none;
+  margin: 25px;
+  top: 0;
+  position: fixed;
+  right: 50;
+}
+ul li{
+  display: inline-block;
+}
+/* tampilan home , news , search */
+ul li a{
+  color: #000;
+  padding: 5px 20px;
+  border-radius: 19%;
+}
+ul li img{
+  height: 20px;
+  width: 20px;
+}
+ul li a:hover{
+  background-color: gray;
+}
+/* untuk nampilin kotak putih buat news */
+.header {
+  background: linear-gradient(to right ,white,white);
+  height: 75px;
+  width: 100%;
+  margin-top: -60px;
+  position: fixed ;
+}
+/* untuk nampilin kotak putih buat artikel */
+.header1 {
+  background: linear-gradient(to right ,white,white);
+  height: 75px;
+  width: 100%;
+  margin-top: -100px;
+  position: fixed ;
+}
+.main{
+  width: 100%;
+  background-color: white;
+}
+
+/* untuk menampilkan box2 tombol pilihan artikel  */
+.tigasaudara{
+  margin-top: -230px;
+  position: absolute;
+  left: 0;
+  float: left;
+  width: 70%;
+  display: inline-block;
+  height: 60%;
+}
+/* mengatur kotak2 untuk penyakit kritis */
+.kotak{
+  float: left;
+  height: 50%;
+  width: 30%;
+  border: 2px solid skyblue;
+  margin-left: 20px;
+}
+.kotak img {
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  padding: 10px;
+}
+.kotak h1{
+  color: blue;
+}
+.kotak p{
+  position: inline;
+  padding: 10px;
+  text-indent: 20px;
+  text-align: justify;
+}
+/* mengatur kotak2 untuk kehamilan */
+.kotak1{
+  float: left;
+  height:50%;
+  width: 30%;
+  border: 2px solid purple;
+  margin-left: 20px;}
+.kotak1 img {
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  padding: 10px;
+}
+.kotak1 h1{
+  color: purple;
+}
+.kotak1 p{
+  position: inline;
+  padding: 10px;
+  text-indent: 20px;
+  text-align: justify;
+}
+/* mengatur kotak2 untuk penyakit kanker */
+.kotak2{
+  float: left;
+  height: 50%;
+  width: 30%;
+  border: 2px solid red;
+  margin-left: 20px;}
+.kotak2 img {
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  padding: 10px;
+}
+.kotak2 h1{
+  color: red;
+}
+.kotak2 p{
+  position: inline;
+  padding: 10px;
+  text-indent: 20px;
+  text-align: justify;
+}
+/* untuk nampilin list login kebawah */
+.menu ul li{
+  margin-top: -12px;
+  margin-right: -50px;
+  text-align: center;
+	padding: 12px;
+  display: inline-block;
+  position: relative;
+}
+/* nampilin logo artikes */
+.menu1 ul li{
+  margin-top: -35px;
+  margin-left:-1290px;
+  display: inline-block;
+  position: relative;
+
+}
+
+.menu1 ul li img{
+    width: 200px;
+    height: 120px;
+
+}
+/* menampilkan logo orang sebelah kanan */
+.menu ul li img{
+    width: 20px;
+    height: 20px;
+  }
+
+.menu ul li img:hover{
+    background-color: darkgrey;
+    color: #000;
+}
+/*  buat ngatur kebawah login dan logout */
+.submenu {
+    margin-top: 40px;
+    margin-right: -50px;
+    position: absolute;
+    display: none;
+    z-index: 2;
+ }
+.submenu li a {
+    width:70px;
+    display: block;
+    text-align: center;
+    z-index: 1;
+    background-color: darkgrey;
+    color: #000 ;
+ }
+.submenu li a:hover{
+    display: inline-block;
+    width:50px;
+    background-color: grey;
+}
+/*  */
+.menu  ul li:hover ul.submenu  {
+    display: block;
+}
+.main ul li a{
+  display: inline-block;
+}
+.main  ul li:hover .bawah{
+    margin-top: 0px;
+    display: block;}
+    /* mengatur kolom about as */
+.bawah {
+    width: 250px;
+    height: 120px;
+    margin-top: 40px;
+    margin-right: -50px;
+    text-indent: 10px;
+    text-align: center;
+    position: absolute;
+    display: none;
+    z-index: 2;
+    border: 2px solid black;
+    background-color: white;
+}
+    /* mengatur kolom about as ( tulisannyaa )*/
+.bawah p {
+    width:70px;
+    display: inline;
+    text-align: center;
+    z-index: 1;
+    background-color: darkgrey
+    color: #000 ;
+    position: relative;
+}
+.main  ul li:hover .bawahcari{
+    margin-top: 0px;
+    display: block;
+  }
+/*  untuk tombol pencarian / kolom pencarian */
+.bawahcari  {
+    width: 140px;
+    height: 10px;
+    margin-left: -80px;
+    position: absolute;
+    display: none;
+    z-index: 2;
+    background-color: white;
+    border-radius: 10px;
+}
+/* ini untuk menampilkan gambar di penyakit / news  */
+
+.kerangka{
+  margin-top: 50px;
+  width: 1200px;
+  height: 80%;
+  padding: 70px;
+  padding-top: 15px;
+}
+.rangkaatas{
+  float:left ;
+  width: 360px;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.rangkabawah{
+  float: left;
+  width: 360px;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.rangkaatas img{
+  width: 100%;
+  height: 50%;
+}
+.rangkabawah img{
+  width: 100%;
+  height: 50%
+}
+/* untuk mengatur tata letak tulisan di artikel ( artikes ) */
+.kesatuan{
+  padding-left: 80px;
+  margin-top: 100px;
+  max-width: 100%;
+  width: 1000px;
+  height: 100%;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+/* mengatur kotak atas bacaan artikrl  */
+.pemisah{
+  max-width: 100%;
+  width: 1000px;
+  height: auto;
+}
+.gambar img{
+  float: left;
+  width: 435px;
+  height: 300px;
+  margin-right: 50px;
+  border: 1px solid ;
+}
+.kata-kata h2{
+  width: 1000px;
+  text-align: center;
+  color: blue;
+}
+.kata-kata p{
+  width: 1000px;
+  text-align: justify;
+
+}
+/* mengatur kotak bawah bacaan artikel  */
+.pemisah2{
+  max-width: 100%;
+  width: 1000px;
+  height: auto;
+}
+
+  /* batas responsif */
+
+  @media screen and (max-width: 1000px){
+    .footer-distributed{
+      font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .footer-distributed .footer-center i{
+      margin-left:  0;
+    }
+    .main {
+      line-height:  normal;
+      height: 15%;
+    }
+    body{
+      height: auto;
+      width: auto;
+    }
+    body img {
+        width: 100%;
+        height: 100vh;
+    }
+    .tigasaudara{
+      margin-top: -350px;
+    }
+    .kotak {
+        float: left;
+        height: 50%;
+        width: 26%;
+        margin-left: 20px;
+          font-size: 9px
+    }
+    .kotak1 {
+      float: left;
+      height: 50%;
+      width: 26%;
+      margin-left: 20px;
+        font-size: 9px;x
+  }
+  .kotak2 {
+      float: left;
+      height: 50%;
+      width: 26%;
+      margin-left: 20px;
+        font-size: 9px;
+  }
+  .kotak h1{
+  font-size: 13px;
+  }
+  .kotak p{
+    position: inline;
+    padding: 10px;
+    text-indent: 20px;
+    text-align: justify;
+    font-size:
+  }
+  .kotak1 h1{
+    font-size: 13px;
+  }
+  .kotak1 p{
+    position: inline;
+    padding: 10px;
+    text-indent: 20px;
+    text-align: justify;
+  }
+  .kotak2 h1{
+    font-size: 13px;
+  }
+  .kotak2 p{
+    position: inline;
+    padding: 10px;
+    text-indent: 20px;
+    text-align: justify;
+  }
+  .kotak img {
+    width: 35px;
+    height: 35px;
+    margin: 0px;
+    padding: 10px;
+  }
+  .kotak1 img {
+    width: 35px;
+    height: 35px;
+    margin: 0px;
+    padding: 10px;
+  }
+  .kotak2 img {
+    width: 35px;
+    height: 35px;
+    margin: 0px;
+    padding: 10px;
+  }
+  .main ul {
+      margin: 0;
+      right: 40px;
+  }
+  .main ul li a {
+      display: inline-block;
+      font-size: 12px;}
+  .menu1 ul li {
+    margin: -40px 775px;
+  display: block;
+  position: relative;
+  }
+  .menu1 ul li img {
+      width: 99px;
+      height: 69px;
+
+  }
+  .submenu li a {
+      width: 70px;
+      margin-top: 35px;
+  }
+  }
+
+  @media screen and (max-width: 600px){
+    .tigasaudara {
+        margin-top: -245px;
+  }
+  .menu1 ul li {
+    margin: -40px 315px;
+  display: inline-block;
+  position: relative;
+  }
+  body{
+    height: auto;
+    width: auto;
+  }
+  body img {
+      width: 100%;
+      height: 100%;
+  }
+  .tigasaudara{
+    margin-top: -350px;
+  }
+
+
+
+  }
